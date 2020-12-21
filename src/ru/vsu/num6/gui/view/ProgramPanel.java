@@ -43,12 +43,12 @@ public class ProgramPanel extends JPanel {
     }
 
     private void addLabelOutput() {
-        labelOutput.setBounds(5, 85, 250, 30);
+        labelOutput.setBounds(5, 85, 180, 30);
         this.add(labelOutput);
     }
 
     private void addOutputUniqueItems() {
-        outputUniqueItems.setBounds(255, 85, 150, 30);
+        outputUniqueItems.setBounds(200, 85, 200, 30);
         outputUniqueItems.setEditable(false);
         this.add(outputUniqueItems);
     }
